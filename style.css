@@ -2,34 +2,41 @@
     margin: 0;
     padding: 0;
 }
+.container{
+    background: #56F189;
+    border-radius: 1.5rem;
+    width: 22rem;
+    height: 22rem;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+}
 body{
-    background-image:radial-gradient(circle at 100%, white, darkgray);
+    background-color: #E6D1E5;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-h2{
-    margin-top: 10px;
-    margin-bottom: 10px;
+h1{
+    font-size: 1.3rem;
+    padding: 0.5rem;
+    margin-top: 0.8rem;
+    margin-bottom: 0.8rem;
 }
 
 input{
-    width: 120px;
-    height: 30px;
+    border-radius: 0.5rem;
+    width: 10rem;
+    height: 2rem;
     outline: none;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
-    background-color: rgba(0,0,0,0.2);
+    font-size: 1rem;
+    background-color: #E6D1E5;
     color: black;
-    margin: 4px;
-}
-
-input:focus{
-    border:2px;
+    margin: 0.3rem;
 }
 
 form{
-    background-color: whitesmoke;
     padding: 20px;
     color: black;
     box-shadow: 0 2px 4px 0(0,0,0,0.4);
@@ -43,21 +50,21 @@ form p{
     float: none;
 }
 .btn{
-    margin-bottom: 2px;
-    margin-top: 2px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
     display: block;
+    background: #149018;
 }
 
 button{
-    width: 128px;
-    height: 25px;
-    font-size: 13px;
-    color: black;
+    width: 10rem;
+    height: 1.8rem;
+    font-size: 0.9rem;
+    color: whitesmoke;
     cursor: pointer;
-    margin: 4px;
-    background-color: rgba(54, 45, 45, 0.2);
-    border: none;
+    margin: auto;
+    border-radius: 0.3rem;
+}
 
+button:hover{
+    background: darkgreen;
 }

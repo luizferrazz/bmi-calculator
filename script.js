@@ -12,19 +12,19 @@ calculate = () => {
         bmi = weight / height;
         bmi = bmi.toFixed(1);
         if (bmi <= 18.4){
-            measure = `Your BMI is ${bmi} which means you're underweight.`
+            measure = `Your BMI is <b>${bmi}</b> which means you're <b>underweight</b>.`
             document.getElementById("result").innerHTML=measure
         }
         else if (bmi >= 18.5 && bmi <= 24.9){
-            measure = `Your BMI is ${bmi} which means your weight is normal.`
+            measure = `Your BMI is <b>${bmi}</b> which means your weight is <b>normal</b>.`
             document.getElementById("result").innerHTML=measure
         }
         else if (bmi >= 25 && bmi < 30){
-            measure = `Your BMI is ${bmi} which means you're overweight.`
+            measure = `Your BMI is <b>${bmi}</b> which means you're <b>overweight</b>.`
             document.getElementById("result").innerHTML=measure
         }
         else if (bmi >= 30){
-            measure = `Your BMI is ${bmi} which means you're obese.`
+            measure = `Your BMI is <b>${bmi}</b> which means you're <b>obese</b>.`
             document.getElementById("result").innerHTML=measure
         }
         else{
